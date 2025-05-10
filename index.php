@@ -1,6 +1,6 @@
 <?php
 // Set page title
-$page_title = "미스터리 우주";  // "Mystery Space" in Korean
+$page_title = "문화창작부";  // "Mystery Space" in Korean
 
 // Header section
 function renderHeader() {
