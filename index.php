@@ -7,7 +7,7 @@ function renderHeader() {
     global $page_title;
     $current_page = isset($_GET['page']) ? $_GET['page'] : 'home';
      if ($current_page === 'members') {
-        $background_image = "/images/맴버/맴버 배경.jpg";
+        $background_image = "/images/멤버/멤버 배경.jpg";
     } 
     else if ($current_page === 'museum') {
         $background_image = "/images/박물관/박물관 배경.jpg";
@@ -151,7 +151,7 @@ function renderFooter() {
     ?>
     <div class="nav">
                 <a href="?page=home">홈</a>
-                <a href="?page=members">맴버</a>
+                <a href="?page=members">멤버</a>
                 <a href="?page=museum">박물관</a>
                 <a href="?page=notice">공지</a>
         </div>
@@ -199,67 +199,67 @@ function renderMembersPage() {
     <div id="members" class="content-section">
         <div class="character-profiles">
             <div class="profile">
-                <img src="images/맴버/문화창작부프로필.png" alt="문화창작부">
+                <img src="images/멤버/문화창작부프로필.png" alt="문화창작부">
                 <h3>문화창작부</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/culture_creating_club?igsh=MWIyYTRnNjRuZGRxZQ%3D%3D&utm_source=qr"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
-                    <a href="https://youtube.com/channel/UC1-qO1S6v3jpyIF_MdmsIEQ?si=9mAaM5jNI4h2PS8w"><img src="images/맴버/유튜브 로고.png" alt="YouTube"></a>
-                    <a href="https://x.com/imsi657719?s=21"><img src="images/맴버/X 로고.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/culture_creating_club?igsh=MWIyYTRnNjRuZGRxZQ%3D%3D&utm_source=qr"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="https://youtube.com/channel/UC1-qO1S6v3jpyIF_MdmsIEQ?si=9mAaM5jNI4h2PS8w"><img src="images/멤버/유튜브 로고.png" alt="YouTube"></a>
+                    <a href="https://x.com/imsi657719?s=21"><img src="images/멤버/X 로고.png" alt="Twitter"></a>
                 </div>
             </div>
             <div class="profile">
-                <img src="images/맴버/상시프로필.png" alt="부장 / 상시">
+                <img src="images/멤버/상시프로필.png" alt="부장 / 상시">
                 <h3>부장 / 상시</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/sangsi3679/?utm_source=ig_web_button_share_sheet"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
-                    <a href="https://www.youtube.com/@asr-t3z6m"><img src="images/맴버/유튜브 로고.png" alt="YouTube"></a>
-                    <a href="https://x.com/aga04743744264?s=21&fbclid=PAZXh0bgNhZW0CMTEAAaeuIqNO6lunb3A2khlAmsqnFeU7B4x9HExlzzK_0WD8624BzctPN4NE09oxzQ_aem_722XsFPQHpRA8-VkhGvuSA"><img src="images/맴버/X 로고.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/sangsi3679/?utm_source=ig_web_button_share_sheet"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="https://www.youtube.com/@asr-t3z6m"><img src="images/멤버/유튜브 로고.png" alt="YouTube"></a>
+                    <a href="https://x.com/aga04743744264?s=21&fbclid=PAZXh0bgNhZW0CMTEAAaeuIqNO6lunb3A2khlAmsqnFeU7B4x9HExlzzK_0WD8624BzctPN4NE09oxzQ_aem_722XsFPQHpRA8-VkhGvuSA"><img src="images/멤버/X 로고.png" alt="Twitter"></a>
                 </div>
             </div>
             <div class="profile">
-                <img src="images/맴버/양고기프로필.png" alt="개발자 / 잔고기">
+                <img src="images/멤버/양고기프로필.png" alt="개발자 / 잔고기">
                 <h3>개발자 / 양고기</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/sheep._.meat/?utm_source=ig_web_button_share_sheet"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="https://www.instagram.com/sheep._.meat/?utm_source=ig_web_button_share_sheet"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
                 </div>
             </div>
             <div class="profile">
-                <img src="images/맴버/소고기프로필.png" alt="기획자 / 소고기">
+                <img src="images/멤버/소고기프로필.png" alt="기획자 / 소고기">
                 <h3>기획자 / 소고기</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/sogogi09?utm_source=ig_web_button_share_sheet"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/맴버/X 로고.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/sogogi09?utm_source=ig_web_button_share_sheet"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/멤버/X 로고.png" alt="Twitter"></a>
                 </div>
             </div>
             <div class="profile">
-                <img src="images/맴버/안개꽃프로필.png" alt="작가 / 전계곡">
+                <img src="images/멤버/안개꽃프로필.png" alt="작가 / 전계곡">
                 <h3>작가 / 안개꽃</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/angae_flower_/?utm_source=ig_web_button_share_sheet"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/맴버/X 로고.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/angae_flower_/?utm_source=ig_web_button_share_sheet"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/멤버/X 로고.png" alt="Twitter"></a>
                 </div>
             </div>
             <div class="profile">
-                <img src="images/맴버/앵프로필.png" alt="디자이너 / 램">
+                <img src="images/멤버/앵프로필.png" alt="디자이너 / 램">
                 <h3>디자이너 / 앵</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/aeng_uoi4/?utm_source=ig_web_button_share_sheet"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/맴버/유튜브 로고.png" alt="YouTube"></a>
+                    <a href="https://www.instagram.com/aeng_uoi4/?utm_source=ig_web_button_share_sheet"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/멤버/유튜브 로고.png" alt="YouTube"></a>
                 </div>
             </div>
             <div class="profile">
-                <img src="images/맴버/토욥일프로필.png" alt="디자이너 / 토끼일">
+                <img src="images/멤버/토욥일프로필.png" alt="디자이너 / 토끼일">
                 <h3>디자이너 / 토욥일</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/toyob00/?utm_source=ig_web_button_share_sheet"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/맴버/X 로고.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/toyob00/?utm_source=ig_web_button_share_sheet"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/멤버/X 로고.png" alt="Twitter"></a>
                 </div>
             </div>
             <div class="profile">
-                <img src="images/맴버/폐인귄프로필.png" alt="매니저 / 레인건">
+                <img src="images/멤버/폐인귄프로필.png" alt="매니저 / 레인건">
                 <h3>매니저 / 폐인귄</h3>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/pyeingwin/?utm_source=ig_web_button_share_sheet"><img src="images/맴버/인스타 로고.png" alt="Instagram"></a>
+                    <a href="https://www.instagram.com/pyeingwin/?utm_source=ig_web_button_share_sheet"><img src="images/멤버/인스타 로고.png" alt="Instagram"></a>
                 </div>
             </div>
         </div>

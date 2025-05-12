@@ -16,7 +16,7 @@ if (!in_array($requested_page, $valid_pages)) {
 function generateNavLinks($current_page) {
     $pages = [
         'home' => '홈',
-        'members' => '맴버',
+        'members' => '멤버',
         'museum' => '박물관',
         'notice' => '공지'
     ];
