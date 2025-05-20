@@ -87,7 +87,7 @@ function renderHeader() {
                 padding: 20px;
                 margin-bottom: 30px;
                 margin-top: 30px;
-                grid-template-columns: repeat(4, 1fr); /* 한 줄에 4개 */
+                grid-template-columns: repeat(4, 1fr);
                 gap: 20px;
             }
 
