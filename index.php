@@ -122,7 +122,7 @@ function renderHeader() {
             }
             
             .question-box {
-                aspect-ratio: 16/4;
+                max-width: 100%;
                 background-color: rgba(20, 20, 40, 0);
                 border: 2px solid white;
                 display: flex;
@@ -272,8 +272,9 @@ function renderMuseumPage() {
     <div id="museum" class="content-section">
         <img src='images/박물관/문화창작부 박물관 글씨.png'>
         <div class="question-mark-container">
-            <div class="question-box">?</div>
+            <div class="question-box"><img src="images/박물관/외계인.jpg" alt="외계인"></div>
         </div>
+        
     </div>
     <?php
 }
