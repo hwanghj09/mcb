@@ -273,7 +273,9 @@ function renderMuseumPage() {
         <img src='images/박물관/문화창작부 박물관 글씨.png'>
         <div class="question-mark-container">
             <div class="question-box"><img src="images/박물관/외계인.jpg" alt="외계인"></div>
+            <div class="question-box" onclick='window.location.href="https://drive.google.com/drive/folders/11g9z-EVcRNWgFsvX1CLcZYYfGDmvtUs4?usp=sharing"'><img src="images/박물관/버추얼외계인.jpg" alt="버추얼외계인"></div>
         </div>
+        
         
     </div>
     <?php
